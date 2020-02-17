@@ -1,0 +1,153 @@
+
+
+/* video.css */
+.video_foot > div{
+    float: left;
+}
+.video_start{
+    position: relative;
+    width: 3.4%;
+    height: 66.67%;
+    margin-left: 1%;
+    margin-top: 10px;
+   
+}
+.play_video{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../img/zanting2.png) no-repeat center center;
+    background-size: contain;
+}
+
+.pause_video{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../img/zanting.png) no-repeat center center;
+    background-size: contain;
+}
+
+
+
+.progress_p{
+    position: relative;
+    width: 70.42%;
+    height: 6.67%;
+    background:white;   
+    margin-left: 2%;
+    margin-top: 28px;
+    border-top-left-radius: 1px;    
+    border-top-right-radius: 1px;
+}
+.progress_p1{
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background: #f47032;
+    border-top-left-radius: 1px;    
+    border-top-right-radius: 1px;
+}
+
+.progress_p2{
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    width: 1.54%;
+    height: 325%;
+    background: url(../img/zanting1.png) no-repeat center center;
+    background-size: contain;
+}
+.sound_box{
+    position: relative;
+    width: 3.25%;
+    padding-bottom: 3%;
+    margin-left: 1.5%;
+    margin-top: -100px;
+    height: 150px;
+}
+.sound_img{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    /* height: 100%;
+    background: url(../img/yinliang-2.png) no-repeat center center;
+    background-size: contain; */
+}
+
+.sound_start{
+    position: absolute;
+    left: 15%;
+    top: 13px;
+    width: 65%;
+    height: 88px;
+    background: white;
+    border-radius:6px;
+    overflow: hidden;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+}
+.sound_start1{
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50%;
+    background: #f47032;
+}
+
+.endping{
+    width: 3.16%;
+    padding-bottom: 3.16%;
+    margin-left: 1.5%;
+    margin-top: 11px;
+    background: url(../img/endping.png) no-repeat center center;
+    background-size: contain;
+}
+
+.video_time{
+    pointer-events: none;
+    margin-left: 1.5%;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.6rem;
+    font-family: SourceHanSansCN1;
+}
+
+
+@media screen  and (min-width: 768px) and (max-width: 950px){
+    .sound_box{
+        margin-top: -107px;
+    }
+    .endping{
+        margin-top: 15px;
+        margin-left: 0.5% !important;
+    }
+	.video_start{
+        margin-left: 0.5% !important;
+    }
+    .video_time{
+        margin-left: 0.5% !important;
+    }
+    .progress_p{
+        margin-left: .5% !important;
+    } 
+
+
+
+}
+
+
+
+

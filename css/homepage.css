@@ -1,0 +1,410 @@
+@font-face {
+  /* font-properties */
+  font-family: SourceHanSansCN1;
+  src: url('../font/SourceHanSansCN-Regular_0.otf');
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.kv {
+  position: relative;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+
+.kv > div {
+  position: absolute;
+  cursor: pointer;
+  /* background: red;   */
+}
+
+.kv1 {
+  left: 3%;
+  top: 0%;
+  width: 15%;
+  height: 25%;
+}
+
+.kv2 {
+  left: 19%;
+  top: 6%;
+  width: 8%;
+  height: 20%;
+}
+
+.kv3 {
+  left: 27%;
+  top: 11%;
+  width: 8.5%;
+  height: 15%;
+}
+
+.kv4 {
+  left: 36%;
+  top: 6%;
+  width: 8%;
+  height: 20%;
+}
+
+.kv5 {
+  left: 45%;
+  top: 12%;
+  width: 15%;
+  height: 26%;
+}
+
+.kv6 {
+  left: 60%;
+  top: 7%;
+  width: 8%;
+  height: 31%;
+}
+
+.kv7 {
+  left: 69%;
+  top: 9%;
+  width: 10%;
+  height: 30%;
+}
+
+.kv8 {
+  left: 80%;
+  top: 11%;
+  width: 15%;
+  height: 27%;
+}
+
+.kv9 {
+  left: 37%;
+  top: 40%;
+  width: 16%;
+  height: 26%;
+}
+
+.kv10 {
+  left: 62%;
+  top: 39%;
+  width: 8%;
+  height: 15%;
+}
+
+.kv11 {
+  left: 32%;
+  top: 64%;
+  width: 10.5%;
+  height: 13%;
+}
+
+.kv12 {
+  left: 61%;
+  top: 68%;
+  width: 9.4%;
+  height: 29%;
+}
+
+.kv13 {
+  left: 79%;
+  top: 41%;
+  width: 8.5%;
+  height: 25%;
+}
+
+.kv14 {
+  left: 70%;
+  top: 39%;
+  width: 9%;
+  height: 28%;
+}
+
+.kv15 {
+  left: 88%;
+  top: 39%;
+  width: 9%;
+  height: 26%;
+}
+
+.kv16 {
+  left: 91%;
+  top: 40%;
+  width: 9%;
+  height: 26%;
+}
+
+.kv17 {
+  left: 1%;
+  top: 73%;
+  width: 18%;
+  height: 21%;
+}
+
+.kv18 {
+  left: 18.5%;
+  top: 63%;
+  width: 11%;
+  height: 30%;
+}
+
+.kv19 {
+  left: 30%;
+  top: 79%;
+  width: 14%;
+  height: 17%;
+}
+
+.kv20 {
+  left: 53%;
+  top: 52%;
+  width: 14%;
+  height: 15%;
+}
+
+.kv21 {
+  left: 45%;
+  top: 69%;
+  width: 15%;
+  height: 28%;
+}
+
+.kv22 {
+  left: 63%;
+  top: 71%;
+  width: 10%;
+  height: 26%;
+}
+
+.kv23 {
+  left: 71%;
+  top: 69%;
+  width: 16%;
+  height: 26%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.kv24 {
+  left: 87%;
+  top: 67%;
+  width: 10%;
+  height: 28%;
+}
+
+.video_box {
+  position: relative;
+  margin-top: 8rem;
+  /* margin-bottom: 5rem; */
+  overflow: hidden;
+}
+
+.video_text {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.video_box1 {
+  position: relative;
+  width: 100%;
+  /* height: 700px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_fist {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.video {
+  width: 100%;
+}
+
+.video_foot {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.start,
+.end {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #f47032;
+}
+
+.start_time,
+.end_time {
+  text-align: center;
+  font-size: 3rem;
+  color: #000;
+  font-family: SourceHanSansCN1;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.adds {
+  position: relative;
+  top: -22px;
+  font-size: 3rem;
+  color: #f47032;
+}
+
+.home_text {
+  font-size: 2.4rem;
+  color: #000;
+  text-align: center;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  font-family: SourceHanSansCN1;
+}
+
+.arrow_img {
+  position: relative;
+  top: -35px;
+}
+
+.add_box1,
+.add_box2 {
+  position: relative;
+  /* margin-top: rem; */
+  margin-bottom: 5rem;
+}
+
+.add_box2 {
+  margin-top: 7rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.contact_box > div {
+  font-size: 2.2rem;
+  margin: 1.5rem 0 1.5rem 0;
+  color: #000;
+}
+
+.contact_img,
+.contact_infor {
+  height: 100%;
+}
+
+.contact_infor {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+.home_contact {
+  height: 27rem;
+  padding-top: 6.5rem;
+  box-shadow: 1px 1px 6px 1px #999;
+}
+
+.contact_img > img {
+  position: absolute;
+  left: 76%;
+  top: -7%;
+}
+
+.contact_infor1 {
+  position: relative;
+  left: -12px;
+}
+
+.mod_video1 {
+  position: absolute;
+  left: 40%;
+  top: 41%;
+  width: 20%;
+  height: 20%;
+  background: url(../img/zanting2.png) no-repeat center center;
+  background-size: contain;
+}
+
+@media (max-width: 447px) {
+  .contact_infor {
+    padding-left: 15px;
+  }
+
+  .contact_box > div {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .add_box1 > div > div {
+    padding: 0px;
+  }
+
+  .mod_fluid > div {
+    padding: 0;
+  }
+
+  .arrow_img {
+    top: -13px;
+  }
+
+  .adds {
+    top: -9px;
+  }
+
+  .video_foot {
+    display: none;
+  }
+  .video_box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mod_video1 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .video_text > img {
+    width: 30%;
+  }
+
+  .video_box {
+    margin-top: 5rem;
+  }
+
+  .video_text {
+    margin-bottom: 5rem !important;
+  }
+
+  .video_box > .t > img {
+    width: 40%;
+  }
+
+  .add_box1 {
+    margin-top: 0rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .home_contact {
+    height: 22rem;
+    padding-top: 5rem;
+  }
+}

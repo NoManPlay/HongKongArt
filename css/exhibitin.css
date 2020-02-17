@@ -1,0 +1,152 @@
+
+@font-face {
+    /* font-properties */
+    font-family: SourceHanSansCN1;
+    src:url('../font/SourceHanSansCN-Regular_0.otf');
+    font-display: swap; 
+}
+.container_body{
+    width: 100%;
+}
+.kv{
+    margin-top: 1rem;
+}
+.main{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity_1{
+    max-width: 1200px; 
+    margin: 0 auto 0;
+    position: relative;
+    margin-top: 9rem;
+    margin-bottom: 5rem;
+    overflow: hidden;
+}
+.activity_title1{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+
+.activity_1 > .act_text{
+    font-size: 2.8rem;
+    color: #9c9c9c;
+    text-align: right;
+} 
+
+.activity_1 > img{
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+
+}
+.act_img1{
+    margin: -2% auto 0% 1.5%;
+}
+
+.act_img2{
+    margin: 0% auto 0% 2%;
+}
+.act_img3{
+    margin: -12% auto 0% 3%;
+}
+.act_img4{
+    margin: -15% auto 0% 67%;
+}
+.act_img5{
+    margin: -35% auto 0% -0.5%;
+}
+
+.act_img6{
+    margin: -20% auto 0% 4%;
+}
+.act_img7{
+    margin: -1% auto 0% 0%;
+}
+.act_img8{
+    margin: -43% auto 0% -1%;
+}
+.act_img9{
+    margin: -22% auto 0% 0%;
+}
+.act_img10{
+    margin: 0% auto 0% 1%;
+}
+.act_img11{
+    margin: -26% auto 0% 5%;
+}
+/* act2 */
+
+.act1_img1{
+    margin: -2% auto 0% 0%;
+}
+
+.act1_img2{
+    margin: 10% auto 0% -3%;
+}
+.act1_img3{
+    margin: -1% auto 0% 1%;
+}
+.act1_img4{
+    margin: -3% auto 0% -1%;
+}
+.act1_img5{
+    margin: -6% auto 0% 12%;
+}
+.act1_img6{
+    margin: -16% auto 0% 4%;
+}
+
+
+.act1_img7{
+    margin: 2% auto 0% 7%;
+}
+.act1_img8{
+    margin: 8% auto 0% -2%;
+}
+.act1_img9{
+    margin: -8% auto 0% 10%;
+}
+
+.act1_img10{
+    margin: -1% auto 0% 0%;
+}
+.act1_img11{
+    margin: -7% auto 0% 16%;
+}
+
+.act1_img12{
+    margin: 2% auto 0% 4%;
+}
+.act1_img13{
+    margin: 7% auto 0% 0%;
+}
+.act1_img14{
+    margin: -4% auto 0% 3%;
+}
+.act1_img15{
+    margin: -3% auto 0% 3%;
+}
+
+.back1{
+    position: relative;
+    z-index: -1;
+    width: 177%;
+    margin-top: -112%;
+    margin-left: -164%;
+    pointer-events: none;
+}
+
+
+.back2{
+    position: relative;
+    z-index: -1;
+    width: 166%;
+    margin-top: -109%;
+    margin-left: 0%;
+    pointer-events: none;
+}
+

@@ -1,0 +1,338 @@
+@font-face {
+  /* font-properties */
+  font-family: SourceHanSansCN1;
+  src: url('../font/SourceHanSansCN-Regular_0.otf');
+  font-display: swap;
+}
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kv {
+  margin-top: 1.2rem;
+  width: 100%;
+}
+.contact_jieshao {
+  position: relative;
+  margin-top: 5rem;
+  /* height: 43.4rem; */
+  /* height: 36.2rem; */
+  height: 434px;
+}
+
+.contact_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.contact_img1 {
+  margin-top: 5rem;
+}
+.cont_s {
+  margin-left: 2.5rem;
+}
+.contact_img2 {
+  margin-top: 5rem;
+}
+
+.contact_text {
+  padding-right: 30px;
+  margin-top: 110px;
+  font-size: 24px;
+  font-family: SourceHanSansCN1;
+  text-align: right;
+}
+.contact_text > div {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.contact_text > div > span {
+  color: #0c79ff;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #0c79ff;
+}
+
+.activity_1 {
+  position: relative;
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+.activity_title1 {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.activity_textbox {
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+  font-family: SourceHanSansCN1;
+  text-align: justify;
+}
+.activity_textbox > span {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.activity_textbox > .span {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.activity_textbox > span > span {
+  color: #f47032;
+  font-size: 3rem;
+}
+.cont1 {
+  margin-left: 0.5%;
+}
+.cont1,
+.cont2 {
+  width: 46.67%;
+  padding: 0;
+  min-height: 56rem;
+  box-shadow: 1px 1px 6px 1px #999;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.cont2 {
+  margin-left: 5.8%;
+}
+.cont1 > div,
+.cont2 > div {
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  font-family: SourceHanSansCN1;
+  text-align: justify;
+}
+
+.cont1 > img,
+.cont2 > img {
+  margin-top: 6rem;
+}
+
+#title,
+#title1 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+#title > span,
+#title1 > span {
+  font-size: 3rem;
+}
+#title > span > span,
+#title1 > span > span {
+  color: #f47032;
+}
+.spacity > span {
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+.spacity > .span {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.spacity > span > span {
+  color: #f47032;
+}
+.activity_textbox1 {
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+.activity_textbox1 > a {
+  color: #0c79ff;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #0c79ff;
+}
+.adds_text1 > div {
+  font-size: 2.4rem;
+  font-family: SourceHanSansCN1;
+  margin-bottom: 1rem;
+}
+.adds_text1 > .adds_text1_1 {
+  width: 6%;
+  text-align: left;
+  padding-left: 0;
+  font-family: SourceHanSansCN;
+  color: #f47032;
+}
+.text-left1 {
+  margin-top: 1.2rem;
+  text-align: left;
+  padding: 0;
+}
+
+.mod_jieshao {
+  text-align: center;
+}
+.mod_jieshao > div {
+  width: 100%;
+}
+.mod_back {
+  position: relative;
+}
+#contact_text0 {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  font-size: 2rem;
+  font-family: SourceHanSansCN1;
+  text-align: right;
+}
+#contact_text0 > div {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+#contact_text1 {
+  position: absolute;
+  right: 3%;
+  top: 23%;
+  font-size: 2rem;
+  font-family: SourceHanSansCN1;
+  text-align: right;
+}
+#contact_text1 > div {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1140px) {
+  .contact_jieshao {
+    height: 305px;
+  }
+  .contact_text {
+    font-size: 17px;
+    margin-top: 74px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .contact_jieshao {
+    height: 276px;
+  }
+  .contact_text {
+    font-size: 15px;
+    margin-top: 69px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cont1,
+  .cont2 {
+    width: 100%;
+  }
+  .cont2 {
+    margin-left: 0.5% !important;
+  }
+  .mod_t {
+    margin-bottom: 35px;
+  }
+  .adds_text1_1 {
+    width: 100% !important;
+  }
+  .mod_a {
+    text-align: left;
+    padding-left: 0%;
+  }
+  .adds_text1 > div {
+    margin-top: 0;
+  }
+  .contact_jieshao {
+    display: none !important;
+  }
+  .mod_jieshao {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact_jieshao {
+    display: block !important;
+  }
+  .mod_jieshao {
+    display: none !important;
+  }
+}
+
+@media (max-width: 414px) {
+  #contact_text1 > div {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .cont1,
+  .cont2 {
+    min-height: 65rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .cont1,
+  .cont2 {
+    min-height: 75rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .adds_text1_1 {
+    width: 50% !important;
+  }
+
+  .mod_a {
+    width: 50% !important;
+    text-align: left !important;
+  }
+  .mod_i {
+    text-align: left !important;
+    padding-left: 0px !important;
+  }
+  .mod_last {
+    width: 100% !important;
+  }
+  .mod_f1 {
+    width: 10% !important;
+  }
+  .mod_f {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .contact_img1 {
+    width: 35% !important;
+  }
+  .contact_img2 {
+    width: 32% !important;
+  }
+  .activity_1 {
+    margin-top: 5rem !important;
+  }
+  .activity_title1 > img {
+    width: 35%;
+  }
+  #mod_imgb,
+  #mod_imgb1 {
+    width: 31%;
+  }
+}
+/* .adds1_cont{
+    position: absolute;
+    left: 41%;
+    top: 41%;
+    width: 17%;
+    height: 25%;
+}
+.adds2_cont{
+    position: absolute;
+    left: 49%;
+    top: 31%;
+    width: 17%;
+    height: 25%;
+} */

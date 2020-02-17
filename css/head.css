@@ -1,0 +1,127 @@
+/* 字体定义 */
+
+@font-face {
+  /* font-properties */
+  font-family: SourceHanSansCN;
+  src: url('../font/SourceHanSansCN-Bold_2.otf');
+  font-display: swap;
+}
+@font-face {
+  /* font-properties */
+  font-family: SourceHanSansCN1;
+  src: url('../font/SourceHanSansCN-Regular_0.otf');
+}
+body {
+  font-family: SourceHanSansCN;
+}
+
+* {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+a:focus,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#navbar1 {
+  width: 100%;
+  /* position: absolute;
+    left: 0;
+    bottom:-196px;
+    z-index: 2;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: white; */
+}
+
+#navbar1 > ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow: hidden;
+}
+
+#navbar1 > ul > li {
+  float: left;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  font-size: 20px;
+}
+
+#navbar1 > ul > .active > a {
+  color: #f47032;
+}
+.logo_fan2 {
+  margin-left: -5%;
+  margin-top: 5%;
+  width: auto;
+  display: inline-block;
+}
+.logo_fan {
+  display: inline-block;
+  margin-top: 2%;
+  width: auto;
+  position: absolute;
+  right: -5%;
+}
+.logo_fan1_a {
+  display: none;
+}
+.logo {
+  display: none;
+}
+#StranLink {
+  display: none;
+}
+@media (max-width: 768px) {
+  .head_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_fan {
+    display: none;
+  }
+  .logo_fan2 {
+    display: none;
+  }
+  .logo_fan {
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+  #navbar1 > ul > li {
+    font-size: 12px;
+  }
+  .logo {
+    margin-top: 5%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: -5%;
+  }
+  .logo_fan1_a {
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+  }
+}
+@media (min-width: 768px) {
+  #navbar1 {
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+}

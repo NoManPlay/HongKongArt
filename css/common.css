@@ -1,0 +1,163 @@
+html {
+    font-size: 10px;
+    font-family: 'SYB';
+    background: #fff;
+}
+
+html {
+    font-size: 10px;
+}
+
+@media (min-width:1201px) {
+    .nav_box1 {
+        height: 67px !important;
+        margin-bottom: 2px !important;
+    }
+
+    html {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1200px) {
+    html {
+        font-size: 0.8vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 1.3vw !important;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+    .banner {
+        margin-top: 3.5rem !important;
+    }
+}
+
+.header {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.main {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.language-switch {
+    position: absolute;
+    float: right;
+    display: flex;
+    right: 0;
+    bottom: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cut-off {
+    height: 1px;
+    text-align: center;
+    border-top: 1px solid #4f4f4f;
+}
+
+.orgs {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.org {
+    width: 45%;
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.org p {
+    padding-bottom: 0;
+}
+
+.org img {
+    width: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px 0;
+    bottom: 0;
+    background: #d2d9ee;
+}
+
+.footer p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.copy {
+    text-align: center;
+}
+
+.outbox {
+    text-align: center;
+}
+
+.backToTop {
+    z-index: 9;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 3%;
+    bottom: 3%;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px #999;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.backToTop img {
+    width: 40px;
+}
+
+
+
+@media(max-width:767px) {
+
+    .org {
+        width: 70%;
+    }
+
+    .footer p {
+        width: 80%;
+    }
+
+    .backToTop {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .backToTop img {
+        width: 20px;
+    }
+}
+
+@font-face {
+    font-family: 'SYB';
+    src: url(../font/SourceHanSansCN-Bold_2.otf);
+}
